@@ -6,5 +6,5 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse('Hello World')
 
-def products():
+def products(request):
     return HttpResponse("List of products")
